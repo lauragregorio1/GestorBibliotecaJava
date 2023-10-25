@@ -5,13 +5,13 @@ Una aplicación de escritorio orientada a gestionar los libros de una biblioteca
 **Descripción General**
 
 
-El programa Java es una aplicación de gestión de una biblioteca. Proporciona funcionalidades para buscar libros, añadir nuevos libros, prestar y devolver libros. La aplicación utiliza archivos de texto para almacenar información sobre los libros y los préstamos.
+El programa Java es una aplicación de gestión de una biblioteca. Proporciona funcionalidades para buscar libros, añadir nuevos libros, prestar y devolver libros. La aplicación utiliza dos archivos de texto para almacenar información sobre los libros y los préstamos en los cuales los datos están separados con comas.
 
 
 **Procesos y Servicios Ofrecidos**
 
 1. Buscar Libros
-* Descripción: Este proceso busca libros en la biblioteca según un contenido proporcionado.
+* Descripción: Este proceso busca libros en la biblioteca según el contenido proporcionado en un campo de texto.
 * Funcionamiento:
 * Lee el contenido de dos archivos (biblioteca.txt y prestamos.txt).
 * Compara el contenido con los datos de los libros.
@@ -67,7 +67,7 @@ El programa Java es una aplicación de gestión de una biblioteca. Proporciona f
 **Notas Adicionales**
 
 
- La aplicación hace uso de interfaz gráfica, utilizando componentes como JLayeredPane, JLabel, JButton, etc., para presentar la información y permitir interacciones con el usuario.
+ La aplicación hace uso de interfaz gráfica Java Swing, utilizando componentes como JLayeredPane, JLabel, JButton, etc., para presentar la información y permitir interacciones con el usuario. He creado 5 clases, cada una representando a una de las pantallas del proyecto.
 
 
 
