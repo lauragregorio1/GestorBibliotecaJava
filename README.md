@@ -10,7 +10,8 @@ El programa Java es una aplicación de gestión de una biblioteca. Proporciona f
 
 **Procesos y Servicios Ofrecidos**
 
-1. Buscar Libros
+1. Buscar Libros [Ver Código](src/Clases/GestorBiblioteca.java#L198)
+
 * Descripción: Este proceso busca libros en la biblioteca según el contenido proporcionado en un campo de texto.
 * Funcionamiento:
 * Lee el contenido de dos archivos (biblioteca.txt y prestamos.txt).
