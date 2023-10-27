@@ -21,7 +21,7 @@ El programa Java es una aplicación de gestión de una biblioteca. Proporciona f
 * Si no se encuentra en la biblioteca, verifica si está prestado y muestra el estado.
 
   
-2. Añadir Libros
+2. Añadir Libros [Ver Código](src/Clases/PantallaAñadirLibros.java#L169)
 * Descripción: Este servicio permite añadir nuevos libros a la biblioteca.
 * Funcionamiento:
 * Escribe los detalles del nuevo libro en el archivo biblioteca.txt.
@@ -29,7 +29,7 @@ El programa Java es una aplicación de gestión de una biblioteca. Proporciona f
 * Muestra un mensaje de confirmación si el libro se añade correctamente.
 
   
-3. Pedir Libros
+3. Pedir Libros [Ver Código](src/Clases/PantallaPedirLibros.java#L207)
 * Descripción: Este servicio permite a un usuario pedir un libro prestado.
 * Funcionamiento:
 * Lee los archivos biblioteca.txt y prestamos.txt.
@@ -38,7 +38,7 @@ El programa Java es una aplicación de gestión de una biblioteca. Proporciona f
 * Muestra un mensaje de confirmación si el préstamo se realiza correctamente.
 
   
-4. Devolver Libros
+4. Devolver Libros [Ver Código](src/Clases/PantallaDevolverLibros.java#L199)
 * Descripción: Este servicio permite a un usuario devolver un libro prestado.
 * Funcionamiento:
 * Lee los archivos biblioteca.txt y prestamos.txt.
